@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: /BackgroundWelcome.jpeg
+background: https://drive.google.com/file/d/14Vlh_tx4SBoO0Pgk-Jh42o04xlS5Pex1/view?usp=sharing
 class: 'text-center'
 highlighter: shiki
 lineNumbers: false
