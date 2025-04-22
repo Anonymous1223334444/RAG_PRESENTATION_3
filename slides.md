@@ -471,17 +471,17 @@ layout: two-cols
 }%%
 flowchart TD
   A[Documents PDF multimodaux] --> B[Extraction par type]
-  B --> C1[Texte / PyMuPDF]
-  B --> C2[Tableaux / Camelot]
-  B --> C3[Images / Python PIL]
+  B --> C1[Texte\nPyMuPDF]
+  B --> C2[Tableaux\nCamelot]
+  B --> C3[Images\nPython PIL]
   
-  C1 --> D1[Chunking / sémantique]
-  C2 --> D2[Préservation / structure]
-  C3 --> D3[Analyse / légendes]
+  C1 --> D1[Chunking\nsémantique]
+  C2 --> D2[Préservation\nstructure]
+  C3 --> D3[Analyse\nlégendes]
   
-  D1 --> E1[Embeddings / texte]
-  D2 --> E2[Embeddings / tableaux]
-  D3 --> E3[Embeddings / images]
+  D1 --> E1[Embeddings\ntexte]
+  D2 --> E2[Embeddings\ntableaux]
+  D3 --> E3[Embeddings\nimages]
   
   E1 --> F[Vectorisation adaptative]
   E2 --> F
@@ -681,4 +681,38 @@ class: text-center
 Notre évaluation systématique par type de structure nous a permis d'obtenir une vision détaillée des performances de notre système RAG.
 
 Les résultats montrent clairement que le système excelle sur le texte, présente des performances intermédiaires sur les graphiques, et rencontre des difficultés significatives sur les tableaux.
+-->
+
+---
+layout: two-cols
+---
+
+# Ressources et Liens
+
+<div class="text-orange-400 mb-4">
+  Accès aux documents et au code source
+</div>
+
+## Documentation
+
+- 📄 [Accéder aux documents d'évaluation](https://drive.google.com/drive/u/1/folders/1QEODncJkMAzcAet_NDT8mp4cTvF_U3Nz?usp=sharing)
+- 📊 [Visualisations et graphiques détaillés](https://drive.google.com/drive/folders/1y4ymA7IJIKqd_8Ec9BnrTaDEFp7VQA6F?usp=sharing)
+
+::right::
+
+## Code source
+
+- 🧪 [Programme d'évaluation](https://drive.google.com/file/d/1-fMrY_PJm5kuhvPja-MIhV_Rm4lXOLPL/view?usp=sharing)
+- 💻 [Code complet sur GitHub](https://github.com/Anonymous1223334444/RAGEvaluation_By_Data_Reference_Structure)
+
+<div class="mt-8 text-center">
+  <strong>Andre Sarr</strong><br>
+  sarrandremichel@gmail.com
+</div>
+
+<!--
+Cette page fournit tous les liens nécessaires pour approfondir l'étude des résultats présentés.
+Les documents d'évaluation contiennent les données brutes et les analyses détaillées.
+Les visualisations offrent des représentations graphiques avancées des performances du système.
+Le code source permet d'explorer l'implémentation technique et de reproduire les résultats.
 -->
